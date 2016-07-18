@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  serial: 1
+  name: Producto 1
+  wheel: 10
+  description: MyString
+  category_id: 
+
+two:
+  serial: 2
+  name: Producto 2
+  wheel: 10
+  description: MyString
+  category_id: 
