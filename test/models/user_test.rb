@@ -6,7 +6,7 @@ class UserTest < ActiveSupport::TestCase
   # end
 
   def setup
-  	@user = users(:one)
+  	@user = users(:user_1)
   end
 
   test "User Name can not be blank" do

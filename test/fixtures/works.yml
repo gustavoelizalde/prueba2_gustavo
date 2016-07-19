@@ -1,0 +1,26 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+work_1_user_1:
+  description: Description del trabajo 1 para el usuario 1
+  user_id: user_1
+
+work_2_user_1:
+  description: Description del trabajo 2 para el usuario 1
+  user_id: user_1
+
+work_3_user_1:
+  description: Description del trabajo 3 para el usuario 1
+  user_id: user_1
+
+
+work_1_user_2:
+  description: Description del trabajo 1 para el usuario 2
+  user_id: user_2
+
+work_2_user_2:
+  description: Description del trabajo 2 para el usuario 2
+  user_id: user_2
+
+work_3_user_2:
+  description: Description del trabajo 3 para el usuario 2
+  user_id: user_2
