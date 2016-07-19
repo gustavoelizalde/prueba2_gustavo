@@ -22,4 +22,15 @@ class InventoryTest < ActiveSupport::TestCase
   	@product_3.save
   	assert_not @product_3.valid?, "El tamaño de la rueda debe ser mayor que 0"
   end
+
+  test "On delete item, action is recordered on register model" do
+    new_product = Inventory.new(serial: 3, name: "Test Product", wheel: 10, description: "Test accion registrada", category_id: 15)
+    new_product.save!
+    serial = new_product.serial
+    puts serial
+    new_product.destroy
+    
+    values = Register.all.collect(&:description)
+    assert_not_includes(values, serial)
+  end
 end
